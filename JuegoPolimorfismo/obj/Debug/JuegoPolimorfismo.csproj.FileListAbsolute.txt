@@ -1,0 +1,14 @@
+C:\Users\Paola\source\repos\JuegoPolimorfismo\JuegoPolimorfismo\bin\Debug\JuegoPolimorfismo.exe.config
+C:\Users\Paola\source\repos\JuegoPolimorfismo\JuegoPolimorfismo\bin\Debug\JuegoPolimorfismo.exe
+C:\Users\Paola\source\repos\JuegoPolimorfismo\JuegoPolimorfismo\bin\Debug\JuegoPolimorfismo.pdb
+C:\Users\Paola\source\repos\JuegoPolimorfismo\JuegoPolimorfismo\obj\Debug\JuegoPolimorfismo.csprojAssemblyReference.cache
+C:\Users\Paola\source\repos\JuegoPolimorfismo\JuegoPolimorfismo\obj\Debug\JuegoPolimorfismo.Form1.resources
+C:\Users\Paola\source\repos\JuegoPolimorfismo\JuegoPolimorfismo\obj\Debug\JuegoPolimorfismo.Properties.Resources.resources
+C:\Users\Paola\source\repos\JuegoPolimorfismo\JuegoPolimorfismo\obj\Debug\JuegoPolimorfismo.csproj.GenerateResource.cache
+C:\Users\Paola\source\repos\JuegoPolimorfismo\JuegoPolimorfismo\obj\Debug\JuegoPolimorfismo.csproj.CoreCompileInputs.cache
+C:\Users\Paola\source\repos\JuegoPolimorfismo\JuegoPolimorfismo\obj\Debug\JuegoPolimorfismo.exe
+C:\Users\Paola\source\repos\JuegoPolimorfismo\JuegoPolimorfismo\obj\Debug\JuegoPolimorfismo.pdb
+C:\Users\Paola\source\repos\JuegoPolimorfismo\JuegoPolimorfismo\obj\Debug\JuegoPolimorfismo.FrmPantalla.resources
+C:\Users\Paola\source\repos\JuegoPolimorfismo\JuegoPolimorfismo\bin\Debug\Entidades.dll
+C:\Users\Paola\source\repos\JuegoPolimorfismo\JuegoPolimorfismo\bin\Debug\Entidades.pdb
+C:\Users\Paola\source\repos\JuegoPolimorfismo\JuegoPolimorfismo\obj\Debug\JuegoPolimorfismo.csproj.CopyComplete
