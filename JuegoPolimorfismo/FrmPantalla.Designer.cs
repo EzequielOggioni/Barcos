@@ -54,8 +54,9 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnComenzar);
             this.Name = "FrmPantalla";
-            this.Text = "FrmPantalla";            
+            this.Text = "FrmPantalla";
             this.Click += new System.EventHandler(this.FrmPantalla_Click);
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.FrmPantalla_Paint);
             this.ResumeLayout(false);
 
         }

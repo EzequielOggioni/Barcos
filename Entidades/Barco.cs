@@ -7,17 +7,18 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    public class Barco
+    public abstract class Barco
     {
         private static int xMaximo;
         private static int yMaximo;
+        static Random random;
 
         private int posicionX;
         private int posicionY;
         private int largo;
         private int ancho;
-        private int velocidadX;
-        private int velocidadY;
+        protected int velocidadX;
+        protected int velocidadY;
 
         #region Propiedades
 
@@ -77,10 +78,13 @@ namespace Entidades
         #endregion
 
         #region Ctor
+
+        static Barco()
+        {
+            random = new Random(DateTime.Now.Millisecond);
+        }
         private Barco()
         {
-            Random random = new Random(DateTime.Now.Millisecond);
-
             this.velocidadX = random.Next(-1, 1);
             this.velocidadY = random.Next(-1, 1);
             if (this.velocidadX == 0 && this.velocidadY == 0)
@@ -96,13 +100,13 @@ namespace Entidades
 
             if (Math.Abs(this.velocidadY) > Math.Abs(this.velocidadX))
             {
-                this.Largo = largo > ancho ? largo : ancho;
-                this.Ancho = largo > ancho ? ancho : largo;
+                this.Ancho = largo > ancho ? largo : ancho;
+                this.Largo = largo > ancho ? ancho : largo;
             }
             else
             {
-                this.Ancho = largo > ancho ? largo : ancho;
-                this.Largo = largo > ancho ? ancho : largo;
+                this.Largo = largo > ancho ? largo : ancho;
+                this.Ancho = largo > ancho ? ancho : largo;
             }
 
         }
@@ -137,6 +141,20 @@ namespace Entidades
 
         }
 
+        /// <summary>
+        /// retorna 0 si no se encuentra el punto en el barco
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <returns></returns>
+        public virtual int  validarPunto(int x, int y)
+        {
+            if (x>= posicionX && x <= PosicionXFin && y >= this.posicionY && y <= this.PosicionYFin)
+                return 1;
+
+            return 0;
+
+        }
 
     }
 }
